@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "/home/dialmonsalve/Documents/Programacion/Astro/spotify-clone",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@/components": [
+        "src/components/*"
+      ],
+      "@/icons": [
+        "src/icons/*"
+      ],
+      "@/lib": [
+        "src/lib/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  },
+  "extends": "astro/tsconfigs/strict"
+}
